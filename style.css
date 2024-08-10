@@ -1,0 +1,171 @@
+@font-face {
+  font-family: outfit;
+  src: url(font/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: young;
+  src: url(font/YoungSerif-Regular.ttf);
+}
+body {
+  background-color: #f3e5d8;
+  display: flex;
+  overflow-y: hidden;
+}
+img {
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+}
+.wrapper1 {
+  background-color: white;
+  padding: 17px;
+  width: 26%;
+  margin: 50px auto;
+  border-radius: 9px;
+}
+.wrapper2 {
+  width: 100%;
+  border-radius: 4px;
+}
+
+#P1 > p:nth-child(1) {
+  font-family: young;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 14px;
+  color: rgb(59, 59, 59);
+}
+#P1 > p:nth-child(2) {
+  font-size: 8px;
+  margin-top: 0px;
+  color: gray;
+  font-family: outfit;
+}
+#purple {
+  background-color: #fff7fc;
+  padding: 6px;
+  font-size: 12px;
+  font-family: outfit;
+}
+#purple > p:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 600;
+  color: purple;
+}
+#purple > ul {
+  margin-left: -16px;
+  text-indent: 9px;
+  font-size: 9px;
+  color: rgb(92, 92, 92);
+}
+.white p {
+  color: hsl(14, 45%, 36%);
+  font-weight: 500;
+  font-family: young;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.white ul {
+  font-size: 9px;
+  font-family: outfit;
+  margin-top: -9 / px;
+  margin-left: -10px;
+}
+.white2 p {
+  color: hsl(14, 45%, 36%);
+  font-weight: 500;
+  font-family: young;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.white2 ol {
+  margin-left: -12px;
+  text-indent: 9px;
+  font-size: 8px;
+  color: rgb(67, 65, 65);
+  font-family: outfit;
+}
+.white2 li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 900;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  border-bottom: 1.5px solid rgb(216, 214, 214);
+}
+.table1 {
+  margin-left: 10px;
+  text-indent: 9px;
+  font-size: 8px;
+  color: rgb(67, 65, 65);
+  font-family: outfit;
+}
+.table1 p:nth-child(1) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 580;
+  font-family: young;
+  font-size: 12px;
+  margin-left: -4px;
+}
+.table1 p:nth-child(2) {
+  margin-left: -6px;
+}
+.table1 td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+}
+td {
+  padding-left: 14px;
+}@media screen and (max-width: 800px) {
+    .wrapper1{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper1{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .wrapper1{
+        width: 60%;
+    }
+@media screen and (max-width: 475px) {
+    .wrapper1{
+        width: 100%;
+        height: 100vh;
+    margin: 0px;
+    }
+    body {
+        margin: 0px;
+
+      }
+}
+@media screen and (max-width: 480px) {
+    .wrapper1{
+        width: 60%;
+        height: 100vh;
+    margin: 50px auto;
+    }
+    body {
+        margin: 0px;
+
+      }
+}
+@media screen and (max-width: 376px) {
+  body {
+    margin: 0px;
+  }
+    .wrapper1 {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+  }
+  body {
+    margin: 0px;
+  }
+}
+}
